@@ -22,10 +22,6 @@ sudo apt-get -y install libopenblas-dev
 sudo apt-get install -y --no-install-recommends \
 	build-essential \
 	cmake \
-	libgtest-dev\
-sudo apt-get install -y --no-install-recommends \
-	build-essential \
-	cmake \
 	git \
 	libgoogle-glog-dev \
 	libgtest-dev \
