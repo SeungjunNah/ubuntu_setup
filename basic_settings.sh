@@ -13,6 +13,10 @@ sudo apt-get -y install gnome-control-center
 sudo apt-get -y install update-manager
 sudo apt-get -y install gnome-disk-utility
 
+# tmux
+sudo apt-get -y install git git-flow
+sudo apt-get -y install tmux
+
 # caffe
 sudo apt-get -y install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev
 sudo apt-get -y install libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler
