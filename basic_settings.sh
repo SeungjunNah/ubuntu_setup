@@ -5,6 +5,7 @@ sudo apt-get -y install apache2 apache2-utils	# webdav
 sudo apt-get -y install samba system-config-samba gksu	# samba
 sudo touch /etc/libuser.conf
 sudo apt-get -y install sysv-rc-conf
+sudo apt-get -y install tmux	# tmux
 sudo apt-get -y install dkms fakeroot build-essential linux-headers-generic
 sudo apt-get -y install docker.io
 
@@ -13,9 +14,8 @@ sudo apt-get -y install gnome-control-center
 sudo apt-get -y install update-manager
 sudo apt-get -y install gnome-disk-utility
 
-# tmux
+# git
 sudo apt-get -y install git git-flow
-sudo apt-get -y install tmux
 
 # caffe
 sudo apt-get -y install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev

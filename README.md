@@ -18,10 +18,23 @@ Assumptions:
 
 Usage:
 ```bash
+	# RUN THESE LINES ONLY ONCE!
 	git clone https://github.com/SeungjunNah/ubuntu_setup ~/shells
 	cd ~/shells
 	sh basic_settings.sh
 ```
+
+```bash
+	# CUDA, after you have installed cuda
+	sh cuda_settings.sh	# set environment variables for cuda
+```
+
+```bash
+	# Python, after you have installed Anaconda
+	Be careful if you already have your own ~/.pythonrc
+	sh python_settings.sh	# autocompleted interaction.
+```
+
 
 Possible future updates:
 * I'm looking for ways to download the latest Anaconda3/CUDA install scripts in command line.
