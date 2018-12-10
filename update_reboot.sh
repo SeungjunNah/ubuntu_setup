@@ -1,2 +1,2 @@
-sh update.sh
+sh ./update.sh
 sudo reboot
