@@ -1,0 +1,17 @@
+Reference: http://hjnote.com/?p=20
+
+sudo printf ‘%s\n’ ‘#!/bin/bash’ ‘exit 0’ | sudo tee -a /etc/rc.local sudo
+sudo chmod +x /etc/rc.local
+
+sudo vi /lib/systemd/system/rc-local.service
+
+=== Add the following lines ===
+[Install]
+WantedBy=multi-user.target
+===============================
+
+systemctl enable rc-local.service
+systemctl start rc-local.service
+systemctl status rc-local.service
+
+==> Add contents in the /etc/rc.local 

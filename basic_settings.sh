@@ -2,7 +2,8 @@ sh update.sh
 
 sudo apt-get -y install ssh vim gcc g++ git cmake glances
 sudo apt-get -y install apache2 apache2-utils	# webdav
-sudo apt-get -y install samba system-config-samba gksu	# samba
+#sudo apt-get -y install samba system-config-samba gksu	# samba
+sudo apt-get -y install samba system-config-samba	# samba
 sudo touch /etc/libuser.conf
 sudo apt-get -y install sysv-rc-conf
 sudo apt-get -y install tmux	# tmux
@@ -43,8 +44,10 @@ sudo apt-get install -y --no-install-recommends \
 sudo apt-get -y install libjemalloc-dev
 
 # torch
-git clone https://github.com/torch/distro.git ./torch --recursive
-cd ./torch; bash install-deps;
-cd ..
-rm -rf torch
+bash install-deps
+# git clone https://github.com/torch/distro.git ./torch --recursive
+# cd ./torch; bash install-deps;
+#cd ..
+# rm -rf torch
 
+sudo apt-get install gcc-6 g++-6

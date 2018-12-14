@@ -1,0 +1,9 @@
+Add the following lines to /etc/samba/smb/conf
+
+[global]    # in the global settings
+
+allow insecure wide links = yes
+unix extensions = no
+
+follow symlinks = yes
+wide links = yes
