@@ -1,1 +1,2 @@
-conda install imageio tqdm opencv matplotlib -y
+conda install imageio tqdm matplotlib -y
+pip install opencv-python
