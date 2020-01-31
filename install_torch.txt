@@ -1,9 +1,19 @@
-In Ubuntu 18.04, default gcc version is 7.
-To build torch7 with CUDA 9.0, it should go with gcc 6.
+The official torch7 distribution is no longer maintained.
+Use 3rd party updated version instead.
 
-also, replace line177 of "install-deps" as follows
+git clone https://github.com/nagadomi/distro.git ~/local/torch --recursive
+cd torch
 
-# sudo apt-get install -y python-software-properties
-sudo apt-get install -y software-properties-common
+sudo apt-get install -y dos2unix
 
-CC=gcc-6 CXX=gcc-6 TORCH_NVCC_FLAGS="-D__CUDA_NO_HALF_OPERATORS__" ./install.sh
+dos2unix install-deps
+dos2unix *.sh
+
+./install.sh
+cd extra/cudnn
+git checkout v7
+luarocks make
+
+luarocks install torchx
+luarocks install cutorchx
+

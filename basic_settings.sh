@@ -43,11 +43,15 @@ sudo apt-get install -y --no-install-recommends \
 
 sudo apt-get -y install libjemalloc-dev
 
+sudo apt-get -y install dos2unix    # to convert bash files from other os types
+
+
+
 # torch
-bash install-deps
+# bash install-deps
 # git clone https://github.com/torch/distro.git ./torch --recursive
 # cd ./torch; bash install-deps;
 #cd ..
 # rm -rf torch
 
-sudo apt-get install gcc-6 g++-6
+# sudo apt-get install gcc-6 g++-6
