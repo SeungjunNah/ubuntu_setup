@@ -15,3 +15,6 @@ systemctl start rc-local.service
 systemctl status rc-local.service
 
 ==> Add contents in the /etc/rc.local 
+
+# after installing nvidia driver
+sudo nvidia-smi -pm 1
