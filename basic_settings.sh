@@ -45,7 +45,7 @@ sudo apt-get -y install libjemalloc-dev
 
 sudo apt-get -y install dos2unix    # to convert bash files from other os types
 
-
+sudo apt-get -y install xdg-utils   # server versions don't have it by default
 
 # torch
 # bash install-deps
