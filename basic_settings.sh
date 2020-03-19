@@ -55,3 +55,5 @@ sudo apt-get -y install xdg-utils   # server versions don't have it by default
 # rm -rf torch
 
 # sudo apt-get install gcc-6 g++-6
+
+sudo apt-get -y autoremove --purge
