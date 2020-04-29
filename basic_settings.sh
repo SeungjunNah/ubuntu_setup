@@ -9,6 +9,7 @@ sudo apt-get -y install sysv-rc-conf
 sudo apt-get -y install tmux	# tmux
 sudo apt-get -y install dkms fakeroot build-essential linux-headers-generic
 sudo apt-get -y install docker.io
+sudo apt-get -y install gnupg2 pass
 
 # gnome GUI for Ubuntu-Server
 sudo apt-get -y install gnome-control-center
@@ -47,7 +48,10 @@ sudo apt-get -y install dos2unix    # to convert bash files from other os types
 
 sudo apt-get -y install xdg-utils   # server versions don't have it by default
 sudo apt-get -y install evince
-sudo apt-get -y install libopenal1  # XnView dependency
+sudo apt-get -y install libopenal1 pulseaudio libpulse-mainloop-glib0
+
+
+# XnView dependency
 
 # torch
 # bash install-deps
