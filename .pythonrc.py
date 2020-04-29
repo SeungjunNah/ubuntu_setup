@@ -1,4 +1,4 @@
-# ~/.pythonrc
+# ~/.pythonrc.py
 # enable syntax completion
 try:
     import readline
