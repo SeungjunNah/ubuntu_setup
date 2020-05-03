@@ -6,7 +6,7 @@ conda clean -a -y   # remove unnecessary cache etc.
 
 conda config --set auto_activate_base false # personal preference on other environments
 
-cp .pythonrc ~/.pythonrc
+cp .pythonrc.py $HOME/
 
 # See this link: https://github.com/conda/conda/issues/7980
 echo "export -f conda" >> ~/.bashrc
