@@ -1,5 +1,5 @@
 # cuda environment variable settings
-CUDA_HOME=/usr/local/cuda-9.2	# replace the version with your version
+CUDA_HOME=/usr/local/cuda-10.2	# replace the version with your version
 
 if [ -z $LD_LIBRARY_PATH ]; then
   LD_LIBRARY_PATH=$CUDA_HOME/lib64
