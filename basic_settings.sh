@@ -10,6 +10,7 @@ sudo apt-get -y install tmux	# tmux
 sudo apt-get -y install dkms fakeroot build-essential linux-headers-generic
 sudo apt-get -y install docker.io
 sudo apt-get -y install gnupg2 pass
+sudo apt-get -y install unzip
 
 # gnome GUI for Ubuntu-Server
 sudo apt-get -y install gnome-control-center
